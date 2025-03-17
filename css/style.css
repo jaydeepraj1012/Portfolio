@@ -722,7 +722,11 @@ textarea {
     .image-placeholder i {
         font-size: 100px;
     }
-
+  .profile-image {
+        width: 200px !important;
+        height: 200px !important;
+        
+    }
     .skills-content {
         grid-template-columns: 1fr;
     }
