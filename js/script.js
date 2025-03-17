@@ -63,7 +63,8 @@ if (contactForm) {
         // Validate form
         if (name && email && subject && message) {
             // Here you would typically send the data to a server
-            alert('Thank you for your message! This is a demo - in a real site, your message would be sent.');
+            // alert('Thank you for vist please content direct by email and phone number .');
+            document.getElementById('customModal').style.display = 'flex';
             
             // Reset form
             contactForm.reset();
@@ -72,7 +73,10 @@ if (contactForm) {
         }
     });
 }
-
+// Close modal function
+function closeModal() {
+    document.getElementById('customModal').style.display = 'none';
+  }
 // Add animation to skill items when they come into view
 const observeElements = (elements, className) => {
     const observer = new IntersectionObserver((entries) => {
