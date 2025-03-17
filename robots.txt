@@ -1,4 +1,4 @@
-<!-- filepath: /home/letscms/Desktop/Project/protfilo/Portfolio/robots.txt -->
+
 User-agent: *
 Allow: /
 Sitemap: https://jaydeepraj1012.github.io/Portfolio/sitemap.xml
