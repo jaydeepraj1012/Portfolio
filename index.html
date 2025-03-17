@@ -1,400 +1,397 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta name="description" content="Jaydeep Raj - Web Developer specializing in PHP, Magento 2, JavaScript, and MySQL. Building scalable and efficient web solutions.">
-<meta name="keywords" content="Web Developer, PHP Developer, Magento 2, JavaScript, MySQL, Portfolio">
-<meta name="author" content="Jaydeep Raj">
-<meta property="og:title" content="Jaydeep Raj - Web Developer">
-<meta property="og:description" content="Building scalable and efficient web solutions with PHP, Magento 2, and JavaScript.">
-<meta property="og:image" content="myimage.JPEG">
-<meta property="og:url" content="https://jaydeepraj1012.github.io/Portfolio/">
-<meta name="robots" content="index, follow">
-
-        <title>
-            Jaydeep Raj Portfolio
-        </title>
-        <script src="https://cdn.tailwindcss.com">
-  </script>
-        <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-            rel="stylesheet" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap"
-            rel="stylesheet" />
-        <style>
-   body {
-            font-family: 'Inter', sans-serif;
-            background-color: #0f172a;
-            color: #e2e8f0;
-        }
-  </style>
-    </head>
-    <body class="bg-gray-900 text-gray-300">
-        <header class="bg-gray-800 py-4">
-            <div
-                class="container mx-auto flex justify-between items-center px-4">
-                <div class="text-2xl font-bold text-blue-500">
-                    JR
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaydeep Raj - Web Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Jaydeep Raj</h1>
                 </div>
-                <nav>
-                    <ul class="flex space-x-6">
-                        <li>
-                            <a class="hover:text-blue-500" href="#">
-                                About
-                            </a>
-                        </li>
-                        <li>
-                            <a class="hover:text-blue-500" href="#">
-                                Skills
-                            </a>
-                        </li>
-                        <li>
-                            <a class="hover:text-blue-500" href="#">
-                                Experience
-                            </a>
-                        </li>
-                        <li>
-                            <a class="hover:text-blue-500" href="#">
-                                Projects
-                            </a>
-                        </li>
-                        <li>
-                            <a class="hover:text-blue-500" href="#">
-                                Contact
-                            </a>
-                        </li>
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
-            </div>
-        </header>
-        <main class="container mx-auto px-4 py-12">
-            <div class="grid grid-cols-2 items-center text-center p-6">
-                <div>
-                    <h1 class="text-4xl font-bold mb-4">
-                        Hi, I'm Jaydeep Raj
-                        <span class="wave">👋</span>
-                    </h1>
-                    <p class="text-lg mb-6">
-                        Building efficient web solutions with PHP, MySQL,
-                        JavaScript &amp; Magento 2
-                    </p>
-                    <div class="flex justify-center space-x-4 mb-8">
-                        <a class="bg-blue-500 text-white px-4 py-2 rounded"
-                            href="Profile.pdf" download>
-                            Download Resume
-                        </a>
-                        <!-- <a class="bg-gray-700 text-white px-4 py-2 rounded"
-                            href="#">
-                            View My Projects
-                        </a> -->
-                    </div>
-                </div>
-                <div class="flex justify-center">
-                    <img alt="Jaydeep Raj profile picture jaydeepraj1012"
-                        class="rounded-full border-4 border-blue-500"
-                        height="150"
-                        src="myimage.JPEG"
-                        width="150" />
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
-            <section
-                class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                <!-- About Me Text -->
-                <div>
-                    <h2 class="text-2xl font-bold mb-4">About Me</h2>
-                    <p>
-                        I'm a passionate web developer with expertise in PHP,
-                        MySQL, JavaScript, and Magento 2.
-                        With a strong foundation in both frontend and backend
-                        development, I create efficient
-                        and scalable web solutions that deliver exceptional user
-                        experiences.
-                    </p>
-                </div>
+        </div>
+    </header>
 
-                <!-- About Me Features -->
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="bg-gray-800 p-4 rounded text-center">
-                        <i class="fas fa-code text-blue-500 text-2xl mb-2"></i>
-                        <h3 class="font-bold">Clean Code</h3>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Jaydeep Raj</h1>
+                    <h2>Web Developer | PHP | MySQLi | JavaScript | Magento 2 | Laravel</h2>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> jaydeeprajtech@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> 6397075715</p>
                     </div>
-                    <div class="bg-gray-800 p-4 rounded text-center">
-                        <i
-                            class="fas fa-database text-blue-500 text-2xl mb-2"></i>
-                        <h3 class="font-bold">Database Design</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/jaydeepraj1012" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jaydeepraj1012?trk=people-guest_people_search-card" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/jaydeepraj1012/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/c/JaydeepRaj1012" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://x.com/mrhacks1012" target="_blank"><i class="fab fa-x"></i></a>
                     </div>
-                    <div class="bg-gray-800 p-4 rounded text-center">
-                        <i
-                            class="fab fa-magento text-blue-500 text-2xl mb-2"></i>
-                        <h3 class="font-bold">Magento Expert</h3>
-                    </div>
-                    <div class="bg-gray-800 p-4 rounded text-center">
-                        <i class="fas fa-tools text-blue-500 text-2xl mb-2"></i>
-                        <h3 class="font-bold">Problem Solver</h3>
-                    </div>
+                    <a href="#contact" class="btn primary-btn">Get In Touch</a>
                 </div>
-            </section>
-
-            <section class="mt-12 flex justify-center">
-                <div class="max-w-lg w-full">
-                    <h2
-                        class="text-2xl font-bold text-center mb-4">Experience</h2>
-                    <div class="bg-gray-800 p-6 rounded text-center">
-                        <h3 class="font-bold">Web Developer</h3>
-                        <p class="text-sm text-gray-400">Labcodes Pvt Ltd | Aug
-                            2024 - Present</p>
-                        <ul
-                            class="list-disc list-inside mt-2 text-left mx-auto inline-block">
-                            <li>Developed and maintained Company Portal
-                                Website</li>
-                            <li>Implemented Magento 2 Website for E-commerce
-                                Functionality</li>
-                            <li>Created Dynamic Forms with enhanced
-                                validation</li>
-                            <li>Optimized database queries for better
-                                performance</li>
-                        </ul>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
                     </div>
-                </div>
-            </section>
-            <div class="container mx-auto py-12">
-                <h1 class="text-center text-2xl font-semibold mb-8">
-                    Skills &amp; Expertise
-                </h1>
-                <div
-                    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    <div class="bg-gray-800 p-6 rounded-lg text-center">
-                        <img alt="PHP logo" class="mx-auto mb-4" height="50"
-                            src="https://storage.googleapis.com/a1aa/image/m6dzAqWXk7sTkUrvWvQ9e93EwaFb_5kLR0QYvWPzEGM.jpg"
-                            width="50" />
-                        <p>
-                            PHP
-                        </p>
-                        <div class="relative pt-1">
-                            <div
-                                class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-700">
-                                <div
-                                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                                    style="width:80%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-gray-800 p-6 rounded-lg text-center">
-                        <img alt="MySQLi logo" class="mx-auto mb-4" height="50"
-                            src="https://storage.googleapis.com/a1aa/image/s_YcUJvPMo2Veb6HOsNdWwMlxU5r1UrAQfzAAbVqyP0.jpg"
-                            width="50" />
-                        <p>
-                            MySQLi
-                        </p>
-                        <div class="relative pt-1">
-                            <div
-                                class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-700">
-                                <div
-                                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                                    style="width:70%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-gray-800 p-6 rounded-lg text-center">
-                        <img alt="JavaScript logo" class="mx-auto mb-4"
-                            height="50"
-                            src="https://storage.googleapis.com/a1aa/image/2YbZqqF5sQLNx-pefvGVtbNa7RrRcZYlyB2FSp3hySM.jpg"
-                            width="50" />
-                        <p>
-                            JavaScript
-                        </p>
-                        <div class="relative pt-1">
-                            <div
-                                class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-700">
-                                <div
-                                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                                    style="width:90%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-gray-800 p-6 rounded-lg text-center">
-                        <img alt="Magento 2 logo" class="mx-auto mb-4"
-                            height="50"
-                            src="https://storage.googleapis.com/a1aa/image/-zlXdfMUggfqHU-UlB3JXmyLFE3yJkmDk1qN_P-VGQg.jpg"
-                            width="50" />
-                        <p>
-                            Magento 2
-                        </p>
-                        <div class="relative pt-1">
-                            <div
-                                class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-700">
-                                <div
-                                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                                    style="width:60%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-gray-800 p-6 rounded-lg text-center">
-                        <img alt="HTML/CSS logo" class="mx-auto mb-4"
-                            height="50"
-                            src="https://storage.googleapis.com/a1aa/image/FNVN_TN8jnmKeOkHp5oUKOH38rV9HdIhKIT_lIJHh2A.jpg"
-                            width="50" />
-                        <p>
-                            HTML/CSS
-                        </p>
-                        <div class="relative pt-1">
-                            <div
-                                class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-700">
-                                <div
-                                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                                    style="width:85%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-gray-800 p-6 rounded-lg text-center">
-                        <img alt="Git logo" class="mx-auto mb-4" height="50"
-                            src="https://storage.googleapis.com/a1aa/image/NWyVId-84QvIJ3CA1Q02ENVQC4PGsftEEE93Gp1Uxfk.jpg"
-                            width="50" />
-                        <p>
-                            Git
-                        </p>
-                        <div class="relative pt-1">
-                            <div
-                                class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-700">
-                                <div
-                                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                                    style="width:75%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="bg-gray-800 p-6 rounded-lg text-center">
-                        <img alt="React logo" class="mx-auto mb-4" height="50"
-                            src="https://storage.googleapis.com/a1aa/image/J2qjnlpPp3Kdquzs070ysvmKxqSXd1ffSiDCMcFcqXg.jpg"
-                            width="50" />
-                        <p>
-                            React
-                        </p>
-                        <div class="relative pt-1">
-                            <div
-                                class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-700">
-                                <div
-                                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                                    style="width:80%">
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="bg-gray-800 p-6 rounded-lg text-center">
-                        <img alt="Node.js logo" class="mx-auto mb-4" height="50"
-                            src="https://storage.googleapis.com/a1aa/image/MRECSrPvP04y79PNwpnHtfRSZfw1TaHH_ZZh86MKCm4.jpg"
-                            width="50" />
-                        <p>
-                            Node.js
-                        </p>
-                        <div class="relative pt-1">
-                            <div
-                                class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-700">
-                                <div
-                                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                                    style="width:70%">
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
-            <section class="mt-12">
-                <h2 class="text-2xl font-bold mb-4">
-                    Get in Touch
-                </h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <form class="bg-gray-800 p-4 rounded">
-                        <div class="mb-4">
-                            <label class="block text-sm font-bold mb-2"
-                                for="name">
-                                Name
-                            </label>
-                            <input
-                                class="w-full p-2 rounded bg-gray-700 text-white"
-                                id="name" type="text" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate Web Developer with expertise in backend development, admin panels, and AI-powered web applications. My experience spans across dynamic form creation, real-time chat applications, and Magento REST API development.</p>
+                    <p>I specialize in creating robust and scalable web solutions that combine functionality with excellent user experience. My focus on clean code and optimization enables me to deliver high-performance applications that meet business objectives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
                         </div>
-                        <div class="mb-4">
-                            <label class="block text-sm font-bold mb-2"
-                                for="email">
-                                Email
-                            </label>
-                            <input
-                                class="w-full p-2 rounded bg-gray-700 text-white"
-                                id="email" type="email" />
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQLi</span>
                         </div>
-                        <div class="mb-4">
-                            <label class="block text-sm font-bold mb-2"
-                                for="message">
-                                Message
-                            </label>
-                            <textarea
-                                class="w-full p-2 rounded bg-gray-700 text-white"
-                                id="message"></textarea>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
                         </div>
-                        <button class="bg-blue-500 text-white px-4 py-2 rounded"
-                            type="submit">
-                            Send Message
-                        </button>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Platforms</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-laravel"></i>
+                            <span>Laravel</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-magento"></i>
+                            <span>Magento 2</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Expertise</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Database Optimization</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>REST API Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>cPanel</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span>OpenStreetMap</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Work Experience</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Web Developer</h3>
+                            <span class="timeline-company">LetsCMS Pvt Ltd</span>
+                            <span class="timeline-date">Aug 2024 – Present</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Developed complaint portal, admin panels, and dynamic form elements</li>
+                                <li>Worked on Magento visitors counter and custom REST API development</li>
+                                <li>Implemented real-time chat applications and AI-powered recommendation systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>PHP Web Developer</h3>
+                            <span class="timeline-company">LetsCMS Pvt Ltd</span>
+                            <span class="timeline-date">Aug 2023 – Sept 2023</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Assisted in backend development and API integrations</li>
+                                <li>Collaborated with senior developers on multiple projects</li>
+                                <li>Contributed to database optimization and performance improvements</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🔹 Find Nearest Venue</h3>
+                        <div class="project-tags">
+                            <span>AI-Powered</span>
+                            <span>Laravel</span>
+                            <span>OpenStreetMap</span>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <p>AI-based venue recommendation system with real-time location tracking. Smart filtering for restaurants, hotels, and events with Google Maps integration.</p>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="btn project-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🔹 Complaint Portal Website</h3>
+                        <div class="project-tags">
+                            <span>PHP</span>
+                            <span>MySQLi</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <p>Secure login, complaint tracking, and admin panel. Complete solution for managing and resolving user complaints with real-time status updates.</p>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="btn project-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🔹 Magento REST API Development</h3>
+                        <div class="project-tags">
+                            <span>Magento 2</span>
+                            <span>REST API</span>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <p>Secure API for fetching and updating Magento data. Implemented authentication middleware and performance optimization for reliable data access.</p>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="btn project-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education & Certifications</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-dot"></div>
+                    <div class="education-content">
+                        <h3>Diploma in Computer Science & Engineering</h3>
+                        <p class="education-institution">Mahamaya Polytechnic of IT, Aligarh</p>
+                        <p class="education-year">2021</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-dot"></div>
+                    <div class="education-content">
+                        <h3>12th (Mathematics & Computer Science)</h3>
+                        <p class="education-institution">Shree Mahashwar Inter College</p>
+                        <p class="education-year">2017-2021</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-dot"></div>
+                    <div class="education-content">
+                        <h3>Professional Certifications</h3>
+                        <p class="certification-placeholder">Certifications will be added here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Let's Connect!</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>jaydeeprajtech@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>6397075715</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h3>Social Profiles</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/jaydeepraj1012" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/jaydeepraj1012?trk=people-guest_people_search-card" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/jaydeepraj1012/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/c/JaydeepRaj1012" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://x.com/mrhacks1012" target="_blank"><i class="fab fa-x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
                     </form>
-                   
-                        <div class="space-y-4 w-full max-w-md">
-                            <div class="flex items-center bg-gray-800 p-4 rounded-lg">
-                                <i class="fas fa-envelope text-blue-500 mr-4"></i>
-                                <span>jaydeeprajtech@gmail.com</span>
-                            </div>
-                            <div class="flex items-center bg-gray-800 p-4 rounded-lg">
-                                <i class="fab fa-linkedin text-blue-500 mr-4"></i>
-                                <a href="https://in.linkedin.com/in/jaydeepraj1012">
-                                    <span>LinkedIn Profile</span>
-                                </a>
-                            </div>
-                            <div class="flex items-center bg-gray-800 p-4 rounded-lg">
-                                <i class="fab fa-github text-blue-500 mr-4"></i>
-                                <a href="https://github.com/jaydeepraj1012">
-                                    <span>GitHub Profile</span>
-
-                                </a>
-                            </div>
-                            <div class="flex items-center bg-gray-800 p-4 rounded-lg">
-                                <i class="fas fa-phone text-blue-500 mr-4"></i>
-                                <span>6397075715</span>
-                            </div>
-                            <div class="flex items-center bg-gray-800 p-4 rounded-lg">
-                                <i class="fas fa-map text-blue-500 mr-4"></i>
-                                <span>Location: Mainath Agra Road, Aligarh, India</span>
-                            </div>
-                           
-                        </div>
-                   
                 </div>
-            </section>
-        </main>
-        <footer class="bg-gray-800 py-4 text-center">
-            <p>
-                © 2024 Jaydeep Raj. All rights reserved.
-            </p>
-        </footer>
-        <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Jaydeep Raj",
-  "jobTitle": "Web Developer",
-  "url": "https://jaydeepraj1012.github.io/Portfolio/",
-  "email": "mailto:jaydeeprajtech@gmail.com",
-  "sameAs": [
-    "https://github.com/jaydeepraj1012",
-    "https://in.linkedin.com/in/jaydeepraj1012"
-  ]
-}
-</script>
+            </div>
+        </div>
+    </section>
 
-    </body>
-</html>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Jaydeep Raj. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/jaydeepraj1012" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jaydeepraj1012?trk=people-guest_people_search-card" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/jaydeepraj1012/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/c/JaydeepRaj1012" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://x.com/mrhacks1012" target="_blank"><i class="fab fa-x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 3D Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@react-three/fiber@8.0.0/dist/react-three-fiber.umd.js"></script>
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aframe@1.3.0/dist/aframe-master.min.js"></script>
+    <script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/6.5.2/browser/pixi.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/oimo@1.0.9/build/oimo.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cannon@0.6.2/build/cannon.min.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="js/script.js"></script>
+    <script src="js/three-background.js"></script>
+    <script src="js/skills-visualization.js"></script>
+    <script src="js/project-showcase.js"></script>
+    <script src="js/contact-animation.js"></script>
+</body>
+</html> 

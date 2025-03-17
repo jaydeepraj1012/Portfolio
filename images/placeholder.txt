@@ -1,0 +1,15 @@
+Add your profile image to this directory to use in the portfolio.
+
+Recommended specifications:
+- Square dimensions (e.g., 500x500 pixels)
+- File format: JPG or PNG
+- Maximum file size: 500KB
+
+To use your image in the portfolio:
+1. Add the image to this directory
+2. Update the hero section in index.html to reference your image
+
+Example:
+<div class="hero-image">
+    <img src="images/your-profile-image.jpg" alt="Jaydeep Raj">
+</div>
