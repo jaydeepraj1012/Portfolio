@@ -1,0 +1,6 @@
+<!-- filepath: /home/letscms/Desktop/Project/protfilo/Portfolio/robots.txt -->
+User-agent: *
+Allow: /
+Sitemap: https://jaydeepraj1012.github.io/sitemap.xml
+
+// Add this just before the closing </head> tag
